@@ -39,4 +39,5 @@ items = [10, 20, 0, -1]
 solution(items) # [-1, 0, 10, 20]
 print(items)
 #solution([]) # []
-#solution(items, 'desc') # [20, 10, 0, -1]
+solution(items, 'desc') # [20, 10, 0, -1]
+print(items)
