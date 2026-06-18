@@ -1,4 +1,4 @@
-from .LinkedList import LinkedList
+from LinkedList import LinkedList
 
 
 def get_linked_list_from_array(items):
