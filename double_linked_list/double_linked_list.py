@@ -103,3 +103,9 @@ class DoubleLinkedList:
                 result.append(current_node.value)
             current_node = current_node.next
         return result
+    
+    def __iter__(self):
+        current = self.head  # Начинаем с головы
+        while current is not None:
+            yield current.value  # Возвращаем данные текущего узла
+            current = current.next
